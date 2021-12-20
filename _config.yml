@@ -1,1 +1,47 @@
 theme: jekyll-theme-architect
+# Site settings  
+title: Hux Blog             # 你的博客网站标题  
+SEOTitle: Hux Blog          # 网页的header  
+description: "Cool Blog"    # 随便说点，描述一下  
+url: "https://pekinglone.github.io"  #github中博客项目的博客地址  
+
+# SNS settings      
+# 多余不需要的SNS都可以用“#”注释掉  
+github_username: huxpro     # 你的github账号  
+weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。  
+
+# Build settings  
+paginate: 10              # 一页你准备放几篇文章  
+exclude: ["portfolio","less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"] # 在网页中忽略不展示的内容，添加“portfolio”进去，可去掉网页右上角的“**portfolio**”页面。  
+
+# 评论区使用的disqus帐号，如果需要请改成自己的，不要用原作者的；如不需要就注释掉。  
+# Disqus settings  
+# disqus_username: hux  
+
+# 网站分析，现在支持百度统计和Google Analytics。需要去官方网站注册一下，然后将返回的code贴在下面。  
+# 如果不要此功能，请注释掉。  
+# Baidu Analytics  
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900  
+
+# Google Analytics  
+ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id  
+ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。  
+
+# 侧边的迷你个人简介栏，涉及到个人头像和个人简介。  
+# Sidebar settings  
+sidebar: true                           # whether or not using Sidebar.  
+sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"  
+sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`  
+
+# 友情连接，按照格式修改为自己感兴趣的网站  
+# Friends  
+friends: [  
+    {  
+        title: "Foo Blog",  
+        href: "http://foo.github.io/"  
+    },  
+    {  
+        title: "Bar Blog",  
+        href: "http://bar.github.io"  
+    }  
+]  
