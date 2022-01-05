@@ -1,3 +1,0 @@
-# Lebenslauf
-
-## persönliche Informationen
