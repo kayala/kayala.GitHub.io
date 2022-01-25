@@ -51,7 +51,7 @@
           |--Binary---------|---PKCS#12--- .pfx .p12
 
 * File Format:
-  * PEM (Privacy-Enhanced Mail): Ein File Format für Schlüsseln, Zertifikate. Die Server Zertifikate und Intermediate Zertifikate und Private Key können in demselbe .pem File gelegen werden. Oder Server Zertifikate (nach der CA Verifikation) in .crt(.csr auf Windows Platform funktioniert wie .crt), Intermediate Zertifikate in .cer und Private Key in .key
+  * PEM (Privacy-Enhanced Mail): Ein File Format für Schlüsseln, Zertifikate. Die Server Zertifikate und Intermediate Zertifikate und Private Key können in demselbe .pem File gelegen werden. Oder Server Zertifikate (nach der CA Verifikation) in .crt(.csr: CSR: Certificate Signing Request, meistens auf Windows Platform funktioniert wie .crt), Intermediate Zertifikate in .cer und Private Key in .key
     * Syntax Bsp: Zertifikat:
 
             -----BEGIN CERTIFICATE-----
@@ -111,6 +111,18 @@ Es ist möglich, einen Schlüssel und/oder ein Zertifikat mit OpenSSL zu generie
   
   `keytool -delete -alias tomcat -keystore /etc/cas/keystore/tomcat.keystore -storepass tomcat`
 
+* Erstellung Keystore
+ `keytool -genkeypair -alias certificatekey -keyalg RSA -validity 365 -keystore tomcat.keystore`
+
+* Export Zertifikate Key
+ `keytool -export -alias certificatekey -keystore tomcat.keystore -rfc -file tomcat.cer`
+
+* Erstellung Truststore
+ `keytool -import -alias certificatekey -file tomcat.cer -keystore tomcat.truststore`
+
+* Umwandlung Keystore ins P12
+ `keytool -importkeystore -srckeystore tomcat.keystore -destkeystore tomcat.p12 -deststoretype PKCS12`
+
 ## OpenSSL
 
 ### Install
@@ -161,19 +173,27 @@ Es ist möglich, einen Schlüssel und/oder ein Zertifikat mit OpenSSL zu generie
 
 * Erstellung eines selbst signiertem CER Zertifikat
   
-  `openssl x509 -req -days 365 -sha1 -extensions v3_ca -signkey cakey.pem -in ca.csr -out  cacert.pem`
+  `openssl x509 -req -days 365 -sha1 -extensions v3_ca -signkey cakey.pem -in ca.csr -out cacert.pem`
+
+* Erstellung CRT
+
+ `openssl pkcs12 -in tomcat.p12 -nokeys -out tomcat.crt`
+
+* Erstellung Key
+
+ `openssl pkcs12 -in tomcat.p12 -nocerts -nodes -out tomcat.key`
 
 ### Server Private Schlüsseln und Zertifikate
 
-* Erstellung Server Private Schlüsseln
+* Erstellung Server Private Schlüsseln (CA Private Key)
   
   `openssl genrsa -out key.pem 2048`
 
-* Erstellung Server Zertifikatsanforderung
+* Erstellung Server Zertifikatsanforderung (CSR)
   
-  `openssl req -new -key key.pem -out server.csr -subj "/C=CN/ST=myprovince/L=mycity/O=myorganization/OU=mygroup/CN=myServer"`
+  `openssl req -new -key key.pem -out server.csr`
 
-* Mit root(selbst signierte) Server Zertifikate signierte Server Zertifikate
+* Mit root(selbst signierte) Server Zertifikate signierte Server Zertifikate (CA Root Zertifikate)
   
   `openssl x509 -req -days 365 -sha1 -extensions v3_req -CA ../CA/cacert.pem -CAkey ../CA/cakey.pem -CAserial ca.srl -CAcreateserial -in server.csr -out cert.pem`
 
@@ -186,10 +206,14 @@ Es ist möglich, einen Schlüssel und/oder ein Zertifikat mit OpenSSL zu generie
 * Erstellung Client Private Schlüsseln
   
   `openssl genrsa  -out key.pem 2048`
+  
+* Verschlüsseln des Private Schlüsselns
+
+   `openssl rsa -in ssl.key -des3 -out encrypted.key`
 
 * Erstellung Client Zertifikatsanforderung
   
-  `openssl req -new -key key.pem -out client.csr -subj "/C=CN/ST=myprovince/L=mycity/O=myorganization/OU=mygroup/CN=myClient"`
+  `openssl req -new -key key.pem -out client.csr`
 
 * Mit selbst signierte Client Zertifikate signierte Client Zertifikate
   
@@ -202,7 +226,31 @@ Es ist möglich, einen Schlüssel und/oder ein Zertifikat mit OpenSSL zu generie
 ### Umwandlung
 
 * Umwandlung mittels Kommandozeilen Aufruf
+
+  `sudo openssl genrsa -out private/ca.key`
+
+  Server:
+
+  `sudo openssl req -new -key private/ca.key -out private/ca.csr `
+
+  `sudo openssl x509 -req -days 365 -in private/ca.csr -signkey private/ca.key -out private/ca.crt`
+
+  `sudo echo FACE > serial`
   
+  `sudo touch index.txt`
+
+  `sudo openssl ca -gencrl -out /root/ca/private/ca.crl -crldays 7 -config "/root/ca/conf/openssl.conf"`
+
+  Client:
+
+  `sudo openssl genrsa -des3 -out /root/ca/users/client.key 1024`
+
+  `sudo openssl req -new -key /root/ca/users/client.key -out /root/ca/users/client.csr`
+
+  `sudo openssl ca -in /root/ca/users/client.csr -cert /root/ca/private/ca.crt -keyfile /root/ca/private/ca.key -out /root/ca/users/client.crt -config "/root/ca/conf/openssl.conf"`
+
+  `sudo openssl pkcs12 -export -clcerts -in /root/ca/users/client.crt -inkey /root/ca/users/client.key -out /root/ca/users/client.p12`
+
 * Umwandlung mittels OpenSSL c-API
   
 * Common PEM Conversions
