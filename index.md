@@ -2,9 +2,10 @@
 
 I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self. You can also read the [deutsche Version](https://kayala.GitHub.io/german/).
 
- <li><a href="./resume.md" target="_blank">
- <p>resume</p>
- </a></li>
+我对软件开发和算法优化领域很有兴趣。
+我研究生阶段进行了深度学习方面的研究。对Lenet和CNN进行了深入对比和研究。并且在硬件开发方面进行了优化。对加速架构进行了扩展。
+工作阶段
+
 
 You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
