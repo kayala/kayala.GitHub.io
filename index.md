@@ -1,4 +1,6 @@
-## Jie's Pages
+## Jie Liu's Pages
+
+I am an electronic engineer from China, currently living in Dresden, Germany
 
 You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
