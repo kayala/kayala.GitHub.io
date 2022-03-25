@@ -4,7 +4,10 @@ I am an electronic engineer from China, currently living in Dresden, Germany. Th
 
 我对软件开发和算法优化领域很有兴趣。
 我研究生阶段进行了深度学习方面的研究。对Lenet和CNN进行了深入对比和研究。并且在硬件开发方面进行了优化。对加速架构进行了扩展。
-工作阶段
+工作阶段我增加了对并行算法和架构的研究。对cuda， pycuda和现有的加速算法和架构进行了深入了解，并开发了应用在雷达探测方向的并行加速算法。
+在对算法的研究过程中，我开始了对嵌入式硬件的兴趣，开始加深对STM32， ESP32等芯片的学习和应用
+在之后的工作里，我加深了对嵌入式硬件的了解和应用，并写了一系列raspberrypi外设的驱动。
+在这个过程中我感到C++的重要性，借着学习QT的机会开始了对C++的学习
 
 
 You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
