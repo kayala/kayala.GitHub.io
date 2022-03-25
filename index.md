@@ -1,6 +1,6 @@
 ## Jie Liu's Pages
 
-I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self. You can also read the [deutsche Version](kayala.GitHub.io/german).
+I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self. You can also read the [deutsche Version](kayala.GitHub.io/german/).
 
 
 You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
