@@ -2,7 +2,7 @@
 
 I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self. You can also read the [deutsche Version](https://kayala.GitHub.io/german/).
 
-  <li><a href="./Resume.html" target="_blank">
+  <li><a href="./resume.md" target="_blank">
    <p>resume</p>
    </a></li>
 
