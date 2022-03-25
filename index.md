@@ -9,6 +9,7 @@ I am an electronic engineer from China, currently living in Dresden, Germany. Th
 在之后的工作里，我加深了对嵌入式硬件的了解和应用，并写了一系列raspberrypi外设的驱动。
 在这个过程中我感到C++的重要性，借着学习QT的机会开始了对C++的学习
 
+这里有个我做过的项目展示 [project presentation](https://kayala.GitHub.io/project/).
 
 You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
