@@ -2,9 +2,9 @@
 
 I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self. You can also read the [deutsche Version](https://kayala.GitHub.io/german/).
 
-  <li><a href="./resume.html" target="_blank">
-   <p>resume</p>
-   </a></li>
+ <li><a href="./resume.md" target="_blank">
+ <p>resume</p>
+ </a></li>
 
 You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
