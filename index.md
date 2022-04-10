@@ -21,7 +21,7 @@ Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) 
 
 ### EEPROM ON STM32
 
-Driver for [EEPROM und NTP](https://github.com/kayala/project/tree/main/stm32) on STM32.
+Driver for [EEPROM and NTP](https://github.com/kayala/project/tree/main/stm32) on STM32.
 
 ### Radar algorithm
 
