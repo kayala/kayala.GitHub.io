@@ -9,10 +9,6 @@ I successfully completed my master's degree in electrical engineering at TU Dres
 After graduation I worked for TU Dresden for two years as a research assistant. At work I have increased my research on parallel algorithms and architectures. I have an in-depth understanding of existing acceleration algorithms and architectures, and developed parallel acceleration algorithms for radar detection.
 Embedded development is also my area of interest, I like to develop applications and drivers on STM32, ESP32, Raspberry Pi. And I also learned to use QT for graphical interface development. 
 
-You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-### Project experiences
-
 If you're interested, you can see a brief introduction to projects I've worked on here.
 
 ### CNNs
