@@ -19,15 +19,16 @@ If you're interested, you can see a brief introduction to projects I've worked o
 
 #### CNNs
 
-This is a Tensorflow Project to build CNN on MNIST.
+Build [CNNs](https://github.com/kayala/project/tree/main/CNNs) for MNIST.
 
-[CNNs](https://github.com/kayala/project/tree/main/CNNs)
+#### Mesh networks 
 
-```markdown
+Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
 
-# This is a Tensorflow Project to make CNN on MNIST
+#### Radar algorithm
 
-```
+[Detector](https://github.com/kayala/project/tree/main/radar_cfar_algorithm).
+
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
