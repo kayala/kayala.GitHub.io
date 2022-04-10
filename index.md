@@ -17,19 +17,13 @@ You can use the [editor on GitHub](https://github.com/kayala/kayala.GitHub.io/ed
 
 If you're interested, you can see a brief introduction to projects I've worked on here.
 
+#### CNNs
+
 ```markdown
 
-# CNNs
+# This is a Tensorflow Project to make CNN on MNIST
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+[CNNs](https://github.com/kayala/project/tree/main/CNNs)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
