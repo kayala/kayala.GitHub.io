@@ -1,6 +1,6 @@
 ## Jie's Pages
 
-I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self.
+I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self. You can also have a look on my german resume![Lebenslauf](/kayala.GitHub.io/Lebenslauf_Jie.pdf)
 
 I am very interested in the field of software development and algorithm optimization.
 
