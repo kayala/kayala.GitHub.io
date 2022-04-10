@@ -19,11 +19,7 @@ If you're interested, you can see a brief introduction to projects I've worked o
 
 ```markdown
 
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
+# CNNs
 
 - Bulleted
 - List
