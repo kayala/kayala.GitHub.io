@@ -23,6 +23,10 @@ Build [CNNs](https://github.com/kayala/project/tree/main/CNNs) for MNIST.
 
 Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
 
+### EEPROM ON STM32
+
+Driver for [EEPROM und NTP](https://github.com/kayala/project/tree/main/stm32) on STM32.
+
 ### Radar algorithm
 
 [Detector](https://github.com/kayala/project/tree/main/radar_cfar_algorithm).
