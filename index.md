@@ -2,12 +2,12 @@
 
 I am an electronic engineer from China, currently living in Dresden, Germany. This is my personal page to introduce my self. You can also read the [deutsche Version](https://kayala.GitHub.io/german/).
 
-我对软件开发和算法优化领域很有兴趣。
-我研究生阶段进行了深度学习方面的研究。对Lenet和CNN进行了深入对比和研究。并且在硬件开发方面进行了优化。对加速架构进行了扩展。
-工作阶段我增加了对并行算法和架构的研究。对cuda， pycuda和现有的加速算法和架构进行了深入了解，并开发了应用在雷达探测方向的并行加速算法。
-在对算法的研究过程中，我开始了对嵌入式硬件的兴趣，开始加深对STM32， ESP32等芯片的学习和应用
-在之后的工作里，我加深了对嵌入式硬件的了解和应用，并写了一系列raspberrypi外设的驱动。
-在这个过程中我感到C++的重要性，借着学习QT的机会开始了对C++的学习
+I am very interested in the field of software development and algorithm optimization.
+
+I successfully completed my master's degree in electrical engineering at TU Dresden. I did a lot of deep learning research in my studies. I did a deep comparison and research on CNNs and optimized them in hardware and accelerated them in software.
+
+After graduation I worked for TU Dresden for two years as a research assistant. At work I have increased my research on parallel algorithms and architectures. I have an in-depth understanding of existing acceleration algorithms and architectures, and developed parallel acceleration algorithms for radar detection.
+Embedded development is also my area of interest, I like to develop applications and drivers on STM32, ESP32, Raspberry Pi. And I also learned to use QT for graphical interface development. 
 
 这里有个我做过的项目展示 [project presentation](https://kayala.GitHub.io/project/).
 
