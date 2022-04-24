@@ -29,9 +29,9 @@ ESP 32 is a series of low-cost, low-power system on a chip microcontrollers with
 
 Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
 
-### Drivers for sensors and EEPROM
+### Drivers for multiple sensors and EEPROM
 
-Driver for [EEPROM and NTP](https://github.com/kayala/project/tree/main/stm32) on STM32.
+ [driver for sensors](https://github.com/kayala/project/tree/main/stm32) on STM32.
 
 ### Radar algorithm
 
