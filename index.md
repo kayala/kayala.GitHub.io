@@ -4,10 +4,11 @@ I am an electronic engineer from China, currently living in Dresden, Germany. Th
 
 I am very interested in the field of software development and algorithm optimization.
 
-I successfully completed my master's degree in electrical engineering at TU Dresden. I did a lot of deep learning research in my studies. I did a deep comparison and research on CNNs and optimized them in hardware and accelerated them in software.
+I successfully completed my master's degree in electrical engineering at TU Dresden. In my master thesis I deeply compared the impact of computational accuracy on different convolutional networks and applied my research to the hardware accelerator.
 
-After graduation I worked for TU Dresden for two years as a research assistant. At work I have increased my research on parallel algorithms and architectures. I have an in-depth understanding of existing acceleration algorithms and architectures, and developed parallel acceleration algorithms for radar detection.
-Embedded development is also my area of interest, I like to develop applications and drivers on STM32, ESP32, Raspberry Pi. And I also learned to use QT for graphical interface development. 
+After graduation I worked for TU Dresden for two years as a research assistant. At work I have increased my research on parallel algorithms and architectures. I have an in-depth understanding of existing acceleration methods, and developed parallel acceleration algorithms for radar detection.
+
+Embedded development is also my area, I developed applications and drivers on STM32, ESP32, Raspberry Pi. And I also learned to use QT for graphical interface development. 
 
 If you're interested, you can see a brief introduction to projects I've worked on here.
 
