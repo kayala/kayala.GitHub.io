@@ -23,7 +23,9 @@ Therefore, my master thesis is devoted to studying the impact of convolution acc
 
 ### Mesh networks 
 
-A mesh network is a network in which many nodes are linked together. A mesh network may include multiple routers, switches and other devices. In a full mesh network topology, each node is connected directly to all the other nodes. In a partial mesh topology, only some nodes connect directly to one another. In some cases, a node must go through another node to reach a third node.
+A mesh network is a network in which many nodes are linked together. A mesh network may include multiple routers, switches and other devices. In a full mesh network topology, each node is connected directly to all the other nodes. In a partial mesh topology, only some nodes connect directly to one another. In some cases, a node must go through another node to reach a third node. 
+
+TCP/IP is a fundamental internet protocol and is commonly used for deploying mesh networks.
 
 ESP 32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth, which is very suitable for building a prototype of mesh network.
 
