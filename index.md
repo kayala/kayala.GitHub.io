@@ -29,7 +29,7 @@ TCP/IP is a fundamental internet protocol and is commonly used for deploying mes
 
 ESP 32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth, which is very suitable for building a prototype of mesh network.
 
-Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
+I have built [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
 
 ### Drivers for multiple sensors and EEPROM
 
@@ -37,4 +37,6 @@ I have written [drivers](https://github.com/kayala/project/tree/main/drivers) fo
 
 ### Radar algorithm
 
-[Detector](https://github.com/kayala/project/tree/main/radar_cfar_algorithm).
+Constant false alarm rate (CFAR) detection refers to a common form of adaptive algorithm used in radar systems to detect target returns against a background of noise, clutter and interference.
+
+I have written a [CFAR detector](https://github.com/kayala/project/tree/main/radar_cfar_algorithm).
