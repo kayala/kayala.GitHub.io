@@ -40,3 +40,7 @@ I have written [drivers](https://github.com/kayala/project/tree/main/drivers) fo
 Constant false alarm rate (CFAR) detection refers to a common form of adaptive algorithm used in radar systems to detect target returns against a background of noise, clutter and interference.
 
 I have written a [CFAR detector](https://github.com/kayala/project/tree/main/radar_cfar_algorithm).
+
+### GPU parallel computation
+
+PyCUDA is a wrapper let people access Nvidia's CUDA parallel computation API from Python.
