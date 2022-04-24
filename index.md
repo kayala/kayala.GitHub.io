@@ -25,7 +25,7 @@ Therefore, my master thesis is devoted to studying the impact of convolution acc
 
 Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
 
-### EEPROM ON STM32
+### Drivers for sensors and EEPROM
 
 Driver for [EEPROM and NTP](https://github.com/kayala/project/tree/main/stm32) on STM32.
 
