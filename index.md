@@ -31,7 +31,8 @@ Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) 
 
 ### Drivers for multiple sensors and EEPROM
 
- [driver for sensors](https://github.com/kayala/project/tree/main/stm32) on STM32.
+I have written drivers for an embedded system with multiple sensors and EEPROM.
+ [driver for sensors](https://github.com/kayala/project/tree/main/drivers).
 
 ### Radar algorithm
 
