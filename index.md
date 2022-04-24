@@ -19,6 +19,8 @@ For example, LeNet (or LeNet-5) is a basic convolutional neural network structur
 
 In convolutional neural networks, the computation of convolution is repeated a lot. Therefore, the power consumption of the device can be significantly affected by changing the calculation accuracy of the convolution in the low-power device, which is of great significance to the design of the computing unit.
 
+Therefore, my master thesis is devoted to studying the impact of convolution accuracy on convolutional neural networks. At the same time, convolutional computing accelerator whose accuracy can be changed was designed.
+
 ### Mesh networks 
 
 Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
