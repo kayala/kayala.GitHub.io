@@ -11,9 +11,11 @@ Embedded development is also my area of interest, I like to develop applications
 
 If you're interested, you can see a brief introduction to projects I've worked on here.
 
-### CNNs
+### Converlutional neural networks
 
-Build [CNNs](https://github.com/kayala/project/tree/main/CNNs) for MNIST.
+A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm, is often utilized for classification and computer vision tasks.
+
+For example, LeNet (or LeNet-5) is a basic convolutional neural network structure proposed in 1989, which can be applied for recognizing MNIST handwritten digit images. Here is an example for [Recognition MNIST handwritten digit images](https://github.com/kayala/project/tree/main/CNNs).
 
 ### Mesh networks 
 
