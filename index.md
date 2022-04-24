@@ -43,4 +43,6 @@ I have written a [CFAR detector](https://github.com/kayala/project/tree/main/rad
 
 ### GPU parallel computation
 
-PyCUDA is a wrapper let people access Nvidia's CUDA parallel computation API from Python.
+CUDA is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs). PyCUDA is a wrapper let people access Nvidia's CUDA parallel computation API from Python. 
+
+I have written radar acceleration algorithm with PyCUDA.
