@@ -17,6 +17,8 @@ A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm, is of
 
 For example, LeNet (or LeNet-5) is a basic convolutional neural network structure proposed in 1989, which can be applied for recognizing MNIST handwritten digit images. Here is an example for [Recognition MNIST handwritten digit images](https://github.com/kayala/project/tree/main/CNNs).
 
+In convolutional neural networks, the computation of convolution is repeated a lot. Therefore, the power consumption of the device can be significantly affected by changing the calculation accuracy of the convolution in the low-power device, which is of great significance to the design of the computing unit.
+
 ### Mesh networks 
 
 Build [Mesh Networks](https://github.com/kayala/project/tree/main/mesh_network) on ESP32.
